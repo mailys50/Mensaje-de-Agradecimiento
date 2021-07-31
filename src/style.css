@@ -1,0 +1,57 @@
+* { 
+    margin: 2; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-abierto;
+    font-weight: 300;
+    width: 100vw;
+    height: 100vh;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+	
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+
+.contenido-descripcion {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 300;
+
+}
+
+p{
+    box-sizing: border-box;
+    width: 40%;
+    padding: 260px;
+
+}
+
+@keyframes parpadeo  {
+    0%, 41%, 45%, 47%, 49.5%, 100%  { 
+        opacity: 2;
+    }
+
+    42%, 44%, 46%,48%,  50%  { 
+        opacity: 0; 
+    }
+}
